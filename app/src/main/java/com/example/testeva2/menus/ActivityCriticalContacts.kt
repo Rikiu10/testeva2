@@ -50,7 +50,6 @@ fun CriticalContactsScreen() {
             modifier = Modifier.padding(bottom = 24.dp)
         )
 
-        // Switch para habilitar/deshabilitar la función de llamada
         Row(
             modifier = Modifier.fillMaxWidth().padding(bottom = 16.dp),
             verticalAlignment = Alignment.CenterVertically,
@@ -64,7 +63,7 @@ fun CriticalContactsScreen() {
         Divider()
         Text("Contacto Principal", style = MaterialTheme.typography.titleMedium, modifier = Modifier.padding(top = 16.dp))
 
-        // --- Contacto 1 ---
+
         ContactInput(
             label = "Nombre 1",
             value = name1,
@@ -80,7 +79,6 @@ fun CriticalContactsScreen() {
         Spacer(Modifier.height(24.dp))
         Text("Contacto Secundario", style = MaterialTheme.typography.titleMedium)
 
-        // --- Contacto 2 ---
         ContactInput(
             label = "Nombre 2",
             value = name2,
@@ -138,6 +136,8 @@ fun ContactInput(label: String, value: String, onValueChange: (String) -> Unit, 
         modifier = Modifier.fillMaxWidth().padding(vertical = 8.dp),
         singleLine = true,
         colors = OutlinedTextFieldDefaults.colors(
+            focusedTextColor = Color.Black,
+            unfocusedTextColor = Color.Black,
             focusedBorderColor = MaterialTheme.colorScheme.primary,
             unfocusedBorderColor = Color.Gray
         )

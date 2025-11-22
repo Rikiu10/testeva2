@@ -36,7 +36,7 @@ var currentGasLevel by mutableIntStateOf(0)
 data class LedConfig(
     val warningLevel: Int = 100,
     val criticalLevel: Int = 150
-) { constructor() : this(100, 150) } // Constructor vacío para Firebase
+) { constructor() : this(100, 150) }
 
 data class TimeConfig(
     val enabled: Boolean = false,
