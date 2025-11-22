@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "1042098669804",
+    "project_id": "testeva2-296d5",
+    "storage_bucket": "testeva2-296d5.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:1042098669804:android:9b060c57cf9fb15de37dc9",
+        "android_client_info": {
+          "package_name": "com.example.testeva2"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDR_ZYGsO_Esvt1z1tBpoIramszljMo-gs"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
